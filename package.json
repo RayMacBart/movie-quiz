@@ -1,0 +1,20 @@
+{
+  "name": "movie-quiz",
+  "version": "1.0.0",
+  "description": "An app which is testing the user's knowledge about movies and their casts.",
+  "main": "./src/scripts/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack",
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "server": "webpack-dev-server"
+  },
+  "author": "Reinhard Höbart",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
